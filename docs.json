@@ -8,13 +8,6 @@
     "dark": "#118AB2"
   },
   "favicon": "/favicon.svg",
-  "font": {
-    "family": "Seravek",
-    "weights": [400, 500, 700],
-    "src": "/logo/Seravek.woff",
-    "style": "normal",
-    "display": "swap"
-  },
   "navigation": {
     "groups": [
       {
