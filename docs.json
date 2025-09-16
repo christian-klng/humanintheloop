@@ -4,8 +4,8 @@
   "name": "Human in the Loop",
   "colors": {
     "primary": "#FFD166",
-    "light": "#FFD166",
-    "dark": "#FFD166"
+    "light": "#06D6A0",
+    "dark": "#118AB2"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -47,7 +47,26 @@
           }
         ]
       }
-    ]
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "href": "https://mintlify.com/docs",
+          "icon": "book-open-cover"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://mintlify.com/community",
+          "icon": "slack"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://mintlify.com/blog",
+          "icon": "newspaper"
+        }
+      ]
+    }
   },
   "logo": {
     "light": "/logo/cube_logo_title.png",
