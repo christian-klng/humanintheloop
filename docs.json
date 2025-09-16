@@ -9,9 +9,6 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
         "groups": [
           {
             "group": "Getting started",
@@ -44,8 +41,6 @@
               "ai-tools/claude-code",
               "ai-tools/windsurf"
             ]
-          }
-        ]
       }
     ],
     "global": {
