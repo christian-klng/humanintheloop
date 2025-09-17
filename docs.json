@@ -54,8 +54,8 @@
     ]
   },
   "logo": {
-    "light": "/logo/cube_logo2.png",
-    "dark": "/logo/cube_logo_invert2.png"
+    "light": "/logo/cube_logo_title.png",
+    "dark": "/logo/cube_logo_title_invert.png"
   },
   "navbar": {
     "links": [
