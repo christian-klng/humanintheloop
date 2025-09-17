@@ -4,8 +4,8 @@
   "name": "Human in the Loop",
   "colors": {
     "primary": "#FFD166",
-    "light": "#06D6A0",
-    "dark": "#118AB2"
+    "light": "#118AB2",
+    "dark": "#06D6A0"
   },
   "favicon": "/favicon.svg",
   "fonts": {
