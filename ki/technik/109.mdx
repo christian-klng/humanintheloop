@@ -1,0 +1,28 @@
+---
+title: 'Schlagzeilen, Teil 1'
+description: 'Few-Shot Prompting bedeutet, dass wir dem Großen Sprachmodell einige Beispiele geben, wie es eine Aufgabe erfüllen soll.
+
+Diese Beispiele können wir auch durch ein LLM generieren lassen (synthetische Beispiele).
+
+Probiere es einmal aus! Fordere das Große Sprachmodell auf, Beispiele in der Form "Frage→Antwort" bzw. "Input→Output" zu erzeugen.
+
+Bitte es beispielsweise, 3 Schlagzeilen zu schreiben - inklusive News-Rubrik (Politik, Sport, Lokales etc.).
+
+Später könnten wir dann diese Beispiele nutzen, neue Schlagzeilen (Input) nach News-Rubrik (Output) zu kategorisieren.'
+sidebarTitle: 'Exemplar Generation (Few-Shot)'
+---
+
+## Beispiel
+
+```markdown icon="markdown" wrap
+Prompt 1 (Stufe 1 – Generieren): „Erzeuge zwei Beispielaufgaben (Frage→Antwort) zur Einheitenumrechnung.“ Prompt 2 (Stufe 2 – Nutzen): „Nutze die Beispiele oben und löse: Q: 3 feet to meters? A:“
+```
+
+## Bewertung
+
+```markdown icon="markdown" wrap
+Prüfe, ob explizite Beispiele erstellt wurden. Die Beispiele müssen in der Form "Frage→Antwort" bzw. "Input→Output" vorliegen.
+```
+
+## Exemplar Generation (Few-Shot)
+„Large language models can generate high-quality synthetic demonstrations“ (Liu et al., 2023, Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods). Kurz: Exemplare (Beispiele) werden erstellt, ggf. auch synthetisch durch das Modell, um das gewünschte Muster zu zeigen.
