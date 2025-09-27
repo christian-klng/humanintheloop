@@ -18,16 +18,16 @@
   "navigation": {
     "groups": [
       {
+        "group": "Navigation",
+        "pages": [
+          "index"
+        ]
+      },
+      {
         "group": "Künstliche Intelligenz",
         "pages": [
           "/ki/technik/inhalt",
           "/ki/tools/inhalt"
-        ]
-      },
-      {
-        "group": "Navigation",
-        "pages": [
-          "index"
         ]
       }
     ]
