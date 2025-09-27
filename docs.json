@@ -16,16 +16,18 @@
     "display": "swap"
   },
   "navigation": {
-      "pages": [
-        "index",
-        "development"
-       ],
     "groups": [
       {
         "group": "Künstliche Intelligenz",
         "pages": [
           "/ki/technik/inhalt",
           "/ki/tools/inhalt"
+        ]
+      },
+      {
+        "group": "Allgemein",
+        "pages": [
+          "development"
         ]
       }
     ]
