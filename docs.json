@@ -25,9 +25,9 @@
         ]
       },
       {
-        "group": "Allgemein",
+        "group": "",
         "pages": [
-          "development"
+          "index"
         ]
       }
     ]
