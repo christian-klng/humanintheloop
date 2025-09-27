@@ -17,7 +17,8 @@
   },
   "navigation": {
       "pages": [
-         "/index"
+        "index",
+        "development"
        ],
     "groups": [
       {
