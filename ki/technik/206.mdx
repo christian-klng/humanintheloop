@@ -1,0 +1,26 @@
+---
+title: 'Die Energie des Balls'
+description: 'Um die Antwort eines Großen Sprachmodells noch besser zuzuschneiden, insbesondere bei komplexen Themen, testen wir "Step-Back Prompting".
+
+Dazu schreibe in den Prompt eine Frage wie: Warum wird der Ball langsamer, wenn er über den Boden rollt?
+
+Ergänze im System-Prompt, dass das LLM zunächst eine allgemeine, abstrakte Erklärung für das Thema (hier: Energie) erstellen soll.
+
+Danach erst soll es dire Frage beantworten.'
+sidebarTitle: 'Step-Back Prompting'
+---
+
+## Beispiel
+
+```markdown icon="markdown" wrap
+Prompt: „Erkläre zunächst allgemein, was Energie ist. Danach beantworte: Warum wird ein Ball langsamer, wenn er über den Boden rollt?“
+```
+
+## Bewertung
+
+```markdown icon="markdown" wrap
+Prüfe, ob die Aufgabe eine abstrakte Erklärung vor der eigentlichen Antwort verlangt.
+```
+
+## Step-Back Prompting
+„Step-back prompting asks the model to generate higher-level concepts before answering a specific question“ (Zhou et al., 2022, Least-to-Most Prompting Enables Complex Reasoning in Large Language Models). Kurz: Erst allgemeine Konzepte, dann spezifische Antwort.
