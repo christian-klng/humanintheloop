@@ -1,0 +1,24 @@
+---
+title: 'Schlagzeilen, Teil 2'
+description: 'Du hast in Teil 1 von "Schlagzeilen" schon News und ihre passenden Rubriken erstellt. Jetzt wollen wir daraus eine neue Aufforderung erstellen.
+
+Gebe in das System-Feld die Aufforderung an das Große Sprachmodell ein und die Beispiele, die du in Teil 1 generiert hast.
+
+Gebe in das Prompt-Feld eine neue Schlagzeile ein, die noch keine Rubrik besitzt. Das LLM wird dann dieser neuen Schlagzeile eine Rubrik zuweisen.'
+sidebarTitle: 'Exemplar Selection'
+---
+
+## Beispiel
+
+```markdown icon="markdown" wrap
+Prompt: „Klassifiziere diesen Produkt-Review. (Zuvor ausgewählte Beispiele handeln ebenfalls von Produkt-Reviews ähnlicher Art.)“
+```
+
+## Bewertung
+
+```markdown icon="markdown" wrap
+Prüfe, ob die ausgewählten Beispiele inhaltlich bzw. strukturell der Zielaufgabe ähneln (Relevanzkriterium).
+```
+
+## Exemplar Selection
+„Selecting demonstrations that are relevant to the test instance improves performance“ (Liu et al., 2023, Pre-train, Prompt, and Predict). Kurz: Aus einem Pool werden passende Beispiele für die aktuelle Eingabe ausgewählt (z. B. thematisch ähnlich).
