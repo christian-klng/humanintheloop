@@ -1,0 +1,24 @@
+---
+title: 'Fantastische Symbolik'
+description: 'In diesem Test geht es um selbst-generierte Beispiele, die das Große Sprachmodell direkt mitliefert und als Datengrundlage nutzen kann.
+
+Probiere es einmal aus: Schreibe in den Prompt, dass Du ein Symbol für Stärke suchst.
+
+Damit das LLM dir bessere Ergebnisse liefert, soll es vorher selbst 3 Symbolik-Paare formulieren. Diese Beispiele soll es dann für die Antwort (Symbol für Stärke) benutzen. Schreibe diese Aufforderung in den System-Prompt.'
+sidebarTitle: 'Self-Generated In-Context Demonstrations'
+---
+
+## Beispiel
+
+```markdown icon="markdown" wrap
+Prompt (zweistufig): 1) „Erzeuge drei kurze Q→A-Beispiele zur Datumskonvertierung (ISO→DD.MM.YYYY).“ 2) „Nutze diese Beispiele und konvertiere: 2025-08-19 → ?“
+```
+
+## Bewertung
+
+```markdown icon="markdown" wrap
+Prüfe, ob das LLM zunächst Beispiele generieren soll und dann diese Beispiele als Demonstrationen für die Zielaufgabe verwendet.
+```
+
+## Self-Generated In-Context Demonstrations
+„Self-generated in-context demonstrations can substitute for labeled data“ (Shi et al., 2023, Large Language Models Are Human-Level Prompt Engineers). Kurz: Das Modell erzeugt eigene Demonstrationen (Frage→Antwort) und nutzt sie anschließend als Few-Shot-Beispiele.
