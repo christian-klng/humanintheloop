@@ -54,14 +54,29 @@
       "items": [
         {
           "label": "Start",
-          "href": "https://www.humanintheloop.academy"
+          "href": "/index"
         },
         {
           "label": "Impressum",
-          "href": "https://www.humanintheloop.academy/impressum"
+          "href": "/development"
         }
       ]
     }
   ]
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude"
+    ]
+  },
+  "errors": {
+    "404": {
+      "redirect": false,
+      "title": "Nichts gefunden",
+      "description": "Was ist denn **hier** passiert?"
+    }
   }
 }
