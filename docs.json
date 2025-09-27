@@ -16,39 +16,18 @@
     "display": "swap"
   },
   "navigation": {
-      "pages": [
-         "index"
-       ],
     "groups": [
       {
-        "group": "Getting started",
+        "group": "Künstliche Intelligenz",
         "pages": [
-          "quickstart",
-          "development"
+          "/ki/technik/inhalt",
+          "/ki/tools/inhalt"
         ]
       },
       {
-        "group": "Customization",
+        "group": "Navigation",
         "pages": [
-          "essentials/settings",
-          "essentials/navigation"
-        ]
-      },
-      {
-        "group": "Writing content",
-        "pages": [
-          "essentials/markdown",
-          "essentials/code",
-          "essentials/images",
-          "essentials/reusable-snippets"
-        ]
-      },
-      {
-        "group": "AI tools",
-        "pages": [
-          "ai-tools/cursor",
-          "ai-tools/claude-code",
-          "ai-tools/windsurf"
+          "index"
         ]
       }
     ]
@@ -69,20 +48,38 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/christian-klng/humanintheloop",
+      "linkedin": "https://www.linkedin.com/in/christianklang/"
     },
     "links": [
     {
-      "header": "Info",
+      "header": "Links",
       "items": [
         {
-          "label": "Made by My Team",
-          "href": "https://google.de"
+          "label": "Impressum",
+          "href": "https://www.humanintheloop.academy/impressum"
         }
       ]
     }
   ]
+  },
+  "contextual": {
+   "options": [
+     "copy",
+     "view",
+     "chatgpt",
+     "claude",
+     "perplexity",
+     "mcp",
+     "cursor",
+     "vscode"
+   ]
+ },
+  "errors": {
+    "404": {
+      "redirect": false,
+      "title": "Nichts gefunden",
+      "description": "Was ist denn **hier** passiert?"
+    }
   }
 }

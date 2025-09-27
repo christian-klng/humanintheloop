@@ -1,0 +1,31 @@
+---
+title: 'Die Rezensionen sind überwiegend positiv'
+description: 'Bei Few-Shot erhält das Große Sprachmodell einige wenige Beispiel-Paare, lernt daraus im Kontext und löst danach die neue Aufgabe im gleichen Format.
+
+Probiere es einmal aus. Hier sind Beispiele zur Klassifizierung von Rezensionen dargestellt.
+
+1. Füge dazu die Beispiel-Paare sowie eine Aufforderung in das Feld "System" ein. 
+
+Bewerte die Rezensionen!
+"Wir waren sehr zufrieden.": Stimmung positiv
+"War ok, ich denke es tut was es soll. Preis-Leistung war mittelmäßig.": Stimmung neutral
+"Der Umtausch lief holprig, der Support hat mir zunächst gar nicht geantwortet": Stimmung negativ
+
+2. Füge dann ein neues Beispiel ein, das das Große Sprachmodell bewerten soll.'
+sidebarTitle: 'Few-Shot'
+---
+
+## Beispiel
+
+```markdown icon="markdown" wrap
+Prompt: „Übersetze ins Französische. EN: I have a cat. FR: J’ai un chat. EN: I am happy. FR: Je suis heureux. EN: What time is it? FR:“
+```
+
+## Bewertung
+
+```markdown icon="markdown" wrap
+Prüfe, ob mindestens 2 Beispiel-Paare (Eingabe→Ausgabe) in dem System Prompt enthalten sind. Eine neue Eingabe, die das LLM begutachten soll, muss im Prompt enthalten sein.
+```
+
+## Few-Shot
+„At test time, we provide the model with a natural language instruction and a few demonstrations“ (Brown et al., 2020, Language Models are Few-Shot Learners). 
