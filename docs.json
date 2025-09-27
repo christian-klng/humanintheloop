@@ -23,8 +23,8 @@
       {
         "group": "Künstliche Intelligenz",
         "pages": [
-          "ki/technik/inhalt",
-          "ki/tools/inhalt"
+          "/ki/technik/inhalt",
+          "/ki/tools/inhalt"
         ]
       }
     ]
@@ -59,7 +59,7 @@
         {
           "label": "Impressum",
           "href": "https://www.humanintheloop.academy/impressum"
-        },
+        }
       ]
     }
   ]
