@@ -15,6 +15,20 @@
     "style": "normal",
     "display": "swap"
   },
+  {
+ "contextual": {
+   "options": [
+     "copy",
+     "view",
+     "chatgpt",
+     "claude",
+     "perplexity",
+     "mcp",
+     "cursor",
+     "vscode"
+   ]
+ }
+},
   "navigation": {
       "pages": [
          "index"
