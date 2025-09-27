@@ -1,0 +1,26 @@
+---
+title: 'Die Schätz-Aufgabe'
+description: 'Wenn eine Aufgabe zu groß ist, zerlege sie zunächst in Teilaufgaben.
+
+Dieser simple Rat gilt auch für Große Sprachmodelle. Wenn du die Genauigkeit einer Antwort erhöhen möchtest, ist das eine gute Technik. Probiere es einmal mit einer ungewöhnlichen Schätz-Aufgabe (das Ergebnis sollte nicht in den Trainingsdaten enthalten sein).
+
+Ein Prompt könnte sein: Wie viele Hunde gehen pro Woche in Deutschland zum Hunde-Frisör?
+
+Gebe als System-Prompt ein: Zerlege deine Aufgabe immer zunächst in Teilaufgaben, bevor du antwortest. Beantworte dann jede Teilaufgabe separat. Gebe erst am Ende eine Antwort.'
+sidebarTitle: 'Plan-and-Solve'
+---
+
+## Beispiel
+
+```markdown icon="markdown" wrap
+Prompt: „Erstelle einen Plan, um eine Hausarbeit zu schreiben. Danach führe den Plan Schritt für Schritt aus.“
+```
+
+## Bewertung
+
+```markdown icon="markdown" wrap
+Prüfe, ob zuerst eine Zerlegung in Teilaufgaben oder Teilschritte verlangt wird und danach die Ausführung.
+```
+
+## Plan-and-Solve
+„Plan-and-solve prompting first generates a high-level plan and then executes it step by step“ (Wang et al., 2023, Plan-and-Solve Prompting). Kurz: Erst Plan, dann Lösung.
