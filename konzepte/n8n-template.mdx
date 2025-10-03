@@ -1,0 +1,45 @@
+---
+title: "n8n Template"
+description: "Grundsätzlich kann ein Prozess (Workflow) in n8n ganz unterschiedlich aussiehen. Die nachfolgenden Informationen sollten aber für jeden Prozess vorhanden sein, um daraus ggf. eine Vorlage erstellen zu können."
+sidebarTitle: "n8n Template"
+icon: "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/logos/n8n-14djj6nxy95fbv0dv1vg0ya.png/n8n-myok68cmangmv67irqchlo.png?_a=DATAg1AAZAA0"
+---
+Jede n8n-Vorlage basiert auf einer klar strukturierten, JSON-basierten Workflow-Definition und speichert alle Nodes, Verbindungen, Konfigurationen, Credentials und Fehlerbehandlungslogik.
+
+Templates enthalten grundsätzlich:
+  - Mindestens ein Trigger-Node (z. B. Webhook, Zeitintervall, auslösende App)
+  - Verarbeitungs- und Transformations-Nodes (z. B. Datenumwandlung, IF-Entscheidungen)
+  - Output-Nodes (z. B. E-Mail, API-Aufruf, Datenbank)
+  - Fehlerbehandlungs-Mechanismen
+  - Evaluations-Kriterien
+  - Klar benannte Nodes und Gruppen für bessere Nachvollziehbarkeit
+
+## Tips und Tricks
+
+- Innerhalb der Workflows werden häufig Notiz-Nodes für Erklärungen, Hinweise und Dokumentation verwendet.
+- Credentials werden nie direkt im Template, sondern über Platzhalter oder Environment-Variablen geregelt.
+- Weiterhin sind ein klares Ziel und ein Zweck des Workflow hilfreich:
+  - Titel, Zweck und kurze Zusammenfassung des Templates
+  - Detaillierte Beschreibung (Anwendungsfall, verwendete Technologien, Einrichtung, Anpassung)
+  - Angaben zum Autor/Ersteller
+  - Konkrete Anwendungsbeispiele/Szenarien
+  - Einrichtungshinweise (was muss angepasst werden, worauf achten)
+  - Tags, Kategorien und Filter für bessere Auffindbarkeit
+  - Screenshots, GIFs oder sogar Video-Tutorials zum Einstieg und zur Verdeutlichung der Abläufe
+  - Erklärende Kacheln und Beschreibungen erleichtern das Verständnis, fördern die Wiederverwendung und reduzieren Einarbeitungszeit bei neuen Nutzern.
+
+Du kannst auch n8n Templates anderen zur Verfügung stellen. Diese Templates werden einer Qualitätsprüfung unterzogen (bei offiziellen Templates) oder können einfach durch die Community eingereicht und angepasst werden.
+
+**Quellen:**
+
+[1](https://n8n.io/workflows/)
+[2](https://docs.n8n.io/workflows/templates/)
+[3](https://ai-rockstars.de/eigene-n8n-templates-erstellen-schritt-fuer-schritt/)
+[4](https://n8n.io/workflows/5170-learn-json-basics-with-an-interactive-step-by-step-tutorial-for-beginners/)
+[5](https://ariellephoenix.com/n8n-workflows/data-manual-function/)
+[6](https://ai-rockstars.de/die-10-besten-n8n-workflow-templates-fuer-automatisierungen/)
+[7](https://github.com/enescingoz/awesome-n8n-templates)
+[8](https://n8n.io/workflows/5146-process-ai-output-to-structured-json-with-robust-json-parser/)
+[9](https://www.reddit.com/r/n8n/comments/1lxit45/n8n_json_template_hub/)
+[10](https://n8n.io/workflows/3195-generate-anki-flash-cards-for-language-learning-with-google-translate-and-gpt/)
+[11](https://www.reddit.com/r/n8n/comments/1ko23br/from_frustration_to_solution_a_new_way_to_browse/)
