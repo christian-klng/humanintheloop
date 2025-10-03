@@ -1,0 +1,40 @@
+---
+title: "n8n Good Practice"
+description: "Kriterien für gute n8n Workflows, die die Arbeit bei der Erstellung und Verwaltung vereinfachen."
+sidebarTitle: "n8n Good Practice"
+---
+
+- Monitoring integrieren: Alle Fehler und kritischen Ereignisse werden in einem zentralen System geloggt und mit Namen, Meldung und Zeitstempel dokumentiert.[1]
+- Webhook-Sicherheit sicherstellen: Öffentliche Webhooks sollten immer durch Authentifizierung geschützt werden, um Missbrauch zu verhindern.[1]
+- Unnötige Nodes vermeiden: Nicht verwendete oder redundante Nodes werden aktiv entfernt, um die Übersichtlichkeit und Effizienz zu steigern.[1]
+- Skalierung beachten: Workflows sind so angelegt, dass sie auch bei steigender Last (z.B. erhöhtem Datenvolumen) oder mehr parallelen Executions performant bleiben.[2][3]
+- Modularer Aufbau: Prozesse werden in kleinere, wiederverwendbare Komponenten unterteilt.[2]
+- Datenfluss optimieren: Nodes, die viele Ressourcen (CPU/RAM) benötigen, werden besonders angepasst; unnötige externe API-Aufrufe werden reduziert.[3]
+- Caching nutzen: Für Daten, die sich selten ändern, wird ein Cache eingebaut, um Workflows schneller und ressourcenschonender zu machen.[3]
+- Versionierung und Governance: Änderungen an Workflows werden mit Versionsnummern und kurzen Commit-Mitteilungen dokumentiert; Branching-Strategien werden angewendet.[4]
+- Systemressourcen überwachen: Die Auslastung von CPU, RAM und Speicher wird beachtet und optimiert, um Engpässe zu vermeiden.[3]
+- Evaluationspfade für KI/LLM: Separate Testpfade innerhalb des Workflows sowie Test-Umgebungen erlauben automatisiertes Messen und Bewerten (z.B. Output-Qualität, Score-Vergabe, Konsistenz).[5][6][7]
+- Community-Ratings prüfen: Bei Auswahl von Templates werden Downloadzahlen und Bewertungen betrachtet, um auf bewährte Lösungen zu setzen.[8]
+
+Diese Kriterien helfen, n8n Workflows nachhaltig, sicher und skalierbar zu gestalten und gehen über reine Struktur oder Beschreibungselemente hinaus.
+
+[1](https://www.reddit.com/r/n8n/comments/1l1f6n8/i_analysed_2000_n8n_workflows_and_this_is_what_i/)
+[2](https://conversionblitz.com/n8n-workflow-creation-best-practices)
+[3](https://www.wednesday.is/writing-articles/n8n-performance-optimization-maximizing-workflow-efficiency)
+[4](https://ones.com/blog/mastering-n8n-workflow-version-control-best-practices/)
+[5](https://blog.n8n.io/practical-evaluation-methods-for-enterprise-ready-llms/)
+[6](https://blog.n8n.io/introducing-evaluations-for-ai-workflows/)
+[7](https://docs.n8n.io/advanced-ai/evaluations/overview/)
+[8](https://ai-rockstars.com/the-10-best-n8n-workflow-templates-for-automation/)
+[9](https://n8n.io/workflows/)
+[10](https://www.aifire.co/p/how-to-evaluate-an-n8n-workflow-a-data-driven-guide)
+[11](https://www.youtube.com/watch?v=4cQWJViybAQ)
+[12](https://hypestudio.org/n8n-workflow-automation-5-best-practices-for-success/)
+[13](https://blog.n8n.io/ai-agentic-workflows/)
+[14](https://www.notion.com/templates/n8n-workflow-best-practices)
+[15](https://docs.n8n.io/hosting/scaling/performance-benchmarking/)
+[16](https://www.youtube.com/watch?v=-zFd1nPn6U0)
+[17](https://community.n8n.io/t/best-practice-for-building-ai-agent-tools-built-in-nodes-or-call-workflow/114224)
+[18](https://blog.n8n.io/itops-buyers-guide-to-evaluating-workflow-automation-tools/)
+[19](https://www.skool.com/ai-automation-society/new-video-beginners-guide-to-workflow-evaluation-in-n8n-stop-guessing)
+[20](https://osher.com.au/blog/evaluate-n8n-experts-complex-automations/)
