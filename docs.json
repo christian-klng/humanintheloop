@@ -20,12 +20,7 @@
       {
         "group": "Navigation",
         "pages": [
-          "index"
-        ]
-      },
-      {
-        "group": "Künstliche Intelligenz",
-        "pages": [
+          "index",
           "/ki/technik/inhalt",
           "/ki/tools/inhalt",
           "/ki/agenten/inhalt"
@@ -41,7 +36,7 @@
     "links": [
       {
         "label": "Kontakt",
-        "icon": "email",
+        "icon": "paper-plane",
         "iconType": "regular",
         "href": "mailto:christian@humanintheloop.academy"
       }
@@ -58,7 +53,7 @@
       "items": [
         {
           "label": "Impressum",
-          "href": "https://www.humanintheloop.academy/impressum"
+          "href": "impressum"
         }
       ]
     }
