@@ -27,7 +27,8 @@
         "group": "Künstliche Intelligenz",
         "pages": [
           "/ki/technik/inhalt",
-          "/ki/tools/inhalt"
+          "/ki/tools/inhalt",
+          "/ki/agenten"inhalt"
         ]
       }
     ]
@@ -39,10 +40,10 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "icon": "phone",
+        "label": "Kontakt",
+        "icon": "email",
         "iconType": "regular",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:christian@humanintheloop.academy"
       }
     ]
   },
