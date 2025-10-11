@@ -1,0 +1,25 @@
+---
+title: "Agenten-App"
+description: "Das Ziel ist, eine Interaktion mit zahlreichen Agenten zu ermöglichen. Welcher KI-Agent aktiv wurd, entscheidet die Künstliche Intelligenz selbst (agentische KI). Die Konversation findet im Chat und in dynamischer Form statt."
+sidebarTitle: "Agenten-App"
+icon: "desktop"
+---
+
+## Aktueller Stand der Entwicklungen
+
+Die Agenten App setzt sich aus drei Komponenten zusammen: Eine Web-Oberfläche, Funktionen & Prozesse (n8n), sowie eine Datenbank (Supabase).
+
+| Status | Aufgabe | Bereich |
+| --- | --- | --- |
+| ✅ | Login, Chat-Verläufe (Threads), Verbindung zu n8n, Einstellungen, Chat per Text, Audio oder Dateiupload | Web |
+| ✅ | Login: Nutzer müssen ihre E-Mail bestätigen, Password wird anonym gespeichert | Supabase |
+| ✅ | Nachrichten können Text, Dateien und Bilder sowie Audio sein (Router), werden dann von einem KI-Agenten koordiniert (AI-Agent) | n8n |
+| ✅ | Es ist möglich, dass die Antworten der KI unterschiedlich formatiert werden (Rendering, Meta-Daten) | Web |
+| ✅ | Die Antworten der KI werden im passenden Verlauf in der Datenbank gespeichert (AI-Agent) | n8n, Supabase |
+| ✅ | Neben den Antworten der KI werden auch die Tool-Schritte und die Aktivität der Sub-Agenten angezeigt und automatisch mit Icons versehen| Web |
+|  | (Sub-)Agenten erhalten jeweils eine Rollenbeschreibung | n8n |
+|  | (Sub-)Agenten erhalten jeweils ein Bild und Prompt-Vorschläge auf der Startseite der App | Supabase |
+| ✅ | Verarbeitung von Dateien inklusive Bildern möglich | n8n |
+|  | Verarbeitung von Audio möglich | n8n |
+|  | Verarbeitung von Links möglich | n8n |
+|  | Kann Ideen, Inspiration und jegliche Informationen als Erinnerungen in Vektor-DB abspeichern (Second Brain) | n8n, Supabase |
