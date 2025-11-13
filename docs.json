@@ -17,8 +17,6 @@
         "group": "Navigation",
         "pages": [
           "index",
-          "/docs/chat-app",
-          "/docs/agenten-app",
           "/ki/technik/inhalt",
           "/ki/tools/inhalt",
           "/ki/agenten/inhalt"
