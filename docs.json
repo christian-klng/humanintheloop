@@ -59,10 +59,14 @@
   },
   "contextual": {
    "options": [
+     "copy",
+     "view",
      "chatgpt",
      "claude",
      "perplexity",
-     "mcp"
+     "mcp",
+     "cursor",
+     "vscode"
    ]
  },
   "errors": {
